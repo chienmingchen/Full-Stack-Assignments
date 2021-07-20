@@ -1,5 +1,7 @@
 
 --1.	What is View? What are the benefits of using views?
+ --view is like a virutal table that contains datat from one or multiple tables
+ --but it does not exist physicallyrequire and does not need any storage in a database
 
 --2.	Can data be modified through views?
 --Yes, the base table will be modified.
@@ -8,15 +10,17 @@
 --Can use it to run routine job and is saved for the next time execution. 
 
 --4.	What is the difference between view and stored procedure?
-       
---5.	What is the difference between stored procedure and functions?
+--view is a virtual table which associates to data stored in the database tables 
+--whereas a stored procedure is a group of statements that can be executed       
 
+--5.	What is the difference between stored procedure and functions?
+--The function must return a value but in Stored Procedure it is optional
 
 --6.	Can stored procedure return multiple result sets?
 --NO
 
 --7.	Can stored procedure be executed as part of SELECT Statement? Why?
-
+--YES, Because stored procedure is still the combination of the statements
 
 --8.	What is Trigger? What types of Triggers are there?
 --Triggers are a special type of stored procedure that get executed (fired) when a specific event happens
