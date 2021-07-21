@@ -37,6 +37,7 @@ CREATE INDEX - Used to create and retrieve data from the database very quickly
 Ans : Primary Key cannot be null and one table can only have one primary key
 
 13.	What is foreign key?
+Ans: A foreign key is a set of attributes in a table that refers to the primary key of another table. The foreign key links these two tables
 
 14.	Can a table have multiple foreign keys?
 Ans : Yes
